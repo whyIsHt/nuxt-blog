@@ -1,0 +1,21 @@
+blog_table		博客
+			id
+			title					标题			varchar(20)
+			date					创建日期		date
+			view					浏览次数		int
+			review 					评论次数		int
+			introduce				文章介绍		varchar(100)
+			content					文章主体		text
+===================================================================
+about_table
+			id
+			name					名字			varchar(8)
+			age						年龄			varchar(3)
+			sex						性别			int
+			profession				职业			varchar(16)
+			self_introduction		自我介绍		varchar(300)
+===================================================================
+admin_table
+			id
+			user 					账号			varchar(16)
+			pass					密码			varchar(20)
